@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header>
+        <div class="container">
+            <div class="logo">Portfolio</div>
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Saumen Mondal</span></h1>
+                <h2>Frontend Developer</h2>
+                <p>I create beautiful, responsive websites with great user experience</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="/images/profile-picture.png" alt="Profile Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About <span class="highlight">Me</span></h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="/images/profile-picture.png" alt="About Me">
+                </div>
+                <div class="about-text">
+                    <h3>I'm a passionate web developer</h3>
+                    <p>Hello! I'm Saumen Mondal, a passionate web developer with a knack for creating dynamic and user-friendly websites. With a strong foundation in HTML, CSS, and JavaScript, I specialize in building responsive web applications that provide seamless experiences across all devices.</p>
+
+<p>I thrive on turning complex problems into simple, beautiful solutions. My journey in web development began from School Day's "when I built my first website" and since then, I have honed my skills through various projects and collaborations.</p>
+
+<p>I am always eager to learn new technologies and stay updated with industry trends. My goal is to create not just functional websites, but also engaging digital experiences that resonate with users. When I'm not coding, you can find me on "exploring new coffee shops, hiking, or contributing to open-source projects".</p>
+
+<p>Feel free to reach out if you’d like to collaborate or just chat about web development!</p>
+                    <div class="personal-info">
+                        <div>
+                            <span>Name:</span> Saumen Mondal;
+                        </div>
+                        <div>
+                            <span>Email:</span> saumenmondal1186@gmail.com
+                        </div>
+                        <div>
+                            <span>From:</span> West Bengal, India
+                        </div>
+                    </div>
+                    <a href="/assets/BWUBCA23721_SAUMENMONDAL.pdf" class="btn" id="BWUBCA23721_SAUMENMONDAL.pdf" target="_blank">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>HTML</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level html"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>CSS</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level css"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>JavaScript</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level javascript"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>React</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level react"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Node.js</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level node"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Python</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level python"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>SQL</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level sql"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My <span class="highlight">Projects</span></h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="frontend">Frontend</button>
+                <button class="filter-btn" data-filter="backend">Backend</button>
+                <button class="filter-btn" data-filter="fullstack">Fullstack</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Project items will be added dynamically with JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact <span class="highlight">Me</span></h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>saumenmondal1168@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 9883189459</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>West Bengal, India</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/Saumen19"target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/saumen-mondal-3951a224b/"target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://x.com/Saumen_19"target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/SAUMEN_1186" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/share/14LPbXVt3Zh/"target="_blank"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                    <div id="form-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> My Portfolio. All rights reserved.</p>
+            <a href="#home" class="back-to-top">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
